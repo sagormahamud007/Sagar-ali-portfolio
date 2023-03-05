@@ -3,7 +3,7 @@ import React from 'react';
 const Skill = () => {
     return (
         <div data-aos="fade-up-left" className='mt-16 mb-32 bg-black-300 py-12 px-12'>
-            <h1 className='text-5xl mb-8 text-secondary'>My Skills</h1>
+            <h1 className='text-5xl mb-8 text-black'>MY SKILLS</h1>
             <div>
                 <div className='w-full mb-3'>
                     <h2>HTML</h2>

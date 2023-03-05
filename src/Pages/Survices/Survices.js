@@ -5,6 +5,7 @@ import img3 from '../../Asstes/Icon/s3.png'
 import img4 from '../../Asstes/Icon/s4.png'
 import SingleService from './SingleService';
 import './Service.css'
+
 const Survices = () => {
     const services = [
         {
@@ -33,15 +34,15 @@ const Survices = () => {
         },
     ]
     return (
-        <section className=''>
+        <section>
             <div data-aos="fade-up-left" className='mb-12 px-5'>
                 <h1 className='text-center text-5xl font-bold mb-5 mt-12'>SERVICES OFFER</h1>
                 <p className='text-center'>My service is Web Design, Web Development, Wordpress development and Customize, Search Engine Optimization. <br></br> I also do customize and develop any website.</p>
             </div>
             <div className='flex justify-center'>
-                <progress className="progress w-56 text-center text-secondary bg-secondary"></progress>
+                <progress className="progress w-56 text-center text-secondary bg-slate-300"></progress>
             </div>
-            <div className='mt-10 grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-5 p-4' data-aos="fade-up-right">
+            <div className='mt-10 grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-5 p-4 serviceOverlay'data-aos="fade-up-right">
                 {
                     services.map(service => <SingleService
                         key={service.id}

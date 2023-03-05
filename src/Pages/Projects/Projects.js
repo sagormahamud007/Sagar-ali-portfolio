@@ -25,9 +25,9 @@ const Projects = () => {
     // ]
     return (
         <div className='mt-16'>
-            <h1 className='text-5xl text-secondary text-center font-semibold'>My Projects</h1>
+            <h1 className='text-5xl text-black text-center font-semibold'>MY PROJECTS</h1>
             <div className='text-center mt-5'>
-                <progress className="progress progress-secondary w-56 text-center" value="100" max="100"></progress>
+                <progress className=" bg-gray-300  w-60 text-center h-2"></progress>
             </div>
             <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-7 p-5'>
                 {/* {
@@ -53,7 +53,7 @@ const Projects = () => {
                             <div className="badge badge-outline">Firebase</div>
                         </div>
                     </div>
-                    <Link to='/details'><button className="btn w-full btn-outline btn-secondary">View Details</button></Link>
+                    <Link to='/details'><button className="btn w-full bg-gray-400 border-none">View Details</button></Link>
                 </div>
 
                 <div data-aos="flip-right" className="card bg-base-100 shadow-xl">
@@ -73,7 +73,7 @@ const Projects = () => {
                             <div className="badge badge-outline">Firebase</div>
                         </div>
                     </div>
-                    <Link to='/laptop'><button className="btn w-full btn-outline btn-secondary">View Details</button></Link>
+                    <Link to='/laptop'><button className="btn w-full bg-gray-400 border-none">View Details</button></Link>
                 </div>
 
                 <div data-aos="flip-right" className="card bg-base-100 shadow-xl">
@@ -93,7 +93,7 @@ const Projects = () => {
                             <div className="badge badge-outline">Firebase</div>
                         </div>
                     </div>
-                    <Link to='/fashion'><button className="btn w-full  btn-outline btn-secondary">View Details</button></Link>
+                    <Link to='/fashion'><button className="btn w-full bg-gray-400 border-none">View Details</button></Link>
                 </div>
             </div>
         </div>

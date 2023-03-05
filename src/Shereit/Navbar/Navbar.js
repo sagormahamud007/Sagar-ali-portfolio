@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../../Asstes/Icon/navbarLogo.png'
 
 const Navbar = () => {
     const scroll = (p) => {
@@ -10,7 +11,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className="navbar bg-base-300 px-10">
+        <div className="navbar px-10">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -34,7 +35,7 @@ const Navbar = () => {
                         </li>
                     </ul>
                 </div>
-                <Link to="/" className="btn btn-ghost normal-case font-lg font-mono text-secondary text-4xl">Sagar Ali</Link>
+                <Link to="/" className="btn btn-ghost normal-case font-lg font-mono text-secondary text-4xl"><img className='bg-yellow-200 w-14' src={logo}></img></Link>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
