@@ -2,10 +2,10 @@ import React from "react";
 import { useState } from "react";
 import { useEffect } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
-import learning1 from '../../Asstes/Learning/learning1.png'
-import learning2 from '../../Asstes/Learning/learning2.png'
-import learning3 from '../../Asstes/Learning/learning3.png'
-import learning4 from '../../Asstes/Learning/learning4.png'
+import learning1 from '../../Asstes/Learning/shop1.png'
+import learning2 from '../../Asstes/Learning/shop2.png'
+import learning3 from '../../Asstes/Learning/shop3.png'
+import learning4 from '../../Asstes/Learning/shop4.png'
 
 const Details = () => {
 
@@ -19,7 +19,7 @@ const Details = () => {
         <div className="carousel w-full">
           <div id="slide1" className="carousel-item relative w-full">
             <img
-              style={{ height: "700px" }}
+              style={{ height: "800px" }}
               src={learning4}
               className="w-full "
               alt=""

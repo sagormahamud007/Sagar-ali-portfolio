@@ -5,7 +5,7 @@ const Contact = () => {
         event.preventDefault()
     }
     return (
-        <div className='mb-32'>
+        <div className='mb-32 bg-purple-50 shadow-inner mt-24 py-8'>
             <h2 className='text-5xl text-center font-semibold mb-7 text-black'>Contact Me</h2>
             <div className='flex justify-center mb-5'>
                 <progress className="h-2 w-60 text-center text-secondary "></progress>
@@ -19,7 +19,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className='text-center'>
-                    <input className='text-center bg-gray-400  py-3 rounded-lg px-16 mt-2 hover:bg-gray-500 text-white' type="submit" value="Submit" />
+                    <input className='text-center border bg-gray-400  py-3 rounded-lg px-16 mt-2 hover:bg-gray-500 text-white' type="submit" value="Submit" />
                 </div>
             </form>
 

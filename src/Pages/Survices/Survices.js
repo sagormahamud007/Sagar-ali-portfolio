@@ -34,10 +34,10 @@ const Survices = () => {
         },
     ]
     return (
-        <section>
+        <section className='bg-purple-50 py-2 mt-16'>
             <div data-aos="fade-up-left" className='mb-12 px-5'>
-                <h1 className='text-center text-5xl font-bold mb-5 mt-12'>SERVICES OFFER</h1>
-                <p className='text-center'>My service is Web Design, Web Development, Wordpress development and Customize, Search Engine Optimization. <br></br> I also do customize and develop any website.</p>
+                <h1 className='text-center text-5xl font-bold mb-5 mt-12 text-black'>SERVICES OFFER</h1>
+                <p className='text-center text-black'>My service is Web Design, Web Development, Wordpress development and Customize, Search Engine Optimization. <br></br> I also do customize and develop any website.</p>
             </div>
             <div className='flex justify-center'>
                 <progress className="progress w-56 text-center text-secondary bg-slate-300"></progress>

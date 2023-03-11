@@ -1,5 +1,5 @@
 import React from 'react';
-import learning from '../../Asstes/Image/Lerning.png'
+import learning from '../../Asstes/Image/Projects.png'
 import laptop from '../../Asstes/Image/Laptop.png'
 import fashion from '../../Asstes/Image/fashion.png'
 import Project from './Project';
@@ -24,7 +24,7 @@ const Projects = () => {
 
     // ]
     return (
-        <div className='mt-16'>
+        <div className='bg-purple-50 shadow-inner mt-24 py-8'>
             <h1 className='text-5xl text-black text-center font-semibold'>MY PROJECTS</h1>
             <div className='text-center mt-5'>
                 <progress className=" bg-gray-300  w-60 text-center h-2"></progress>
@@ -37,7 +37,7 @@ const Projects = () => {
                     ></Project>)
                 } */}
                 <div data-aos="flip-right" className="card bg-base-100 shadow-xl">
-                    <figure><img src={learning} className="h-50" alt="Shoes" /></figure>
+                    <figure><img src={learning} className="h-100 w-full" alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">
                             <div className=" text-white font-bold text-2xl">Learning Courses</div>

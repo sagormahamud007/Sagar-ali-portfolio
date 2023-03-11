@@ -22,20 +22,23 @@ const Navbar = () => {
                             <button onClick={() => scroll(0)} className="ml-7 text-lg hover:text-secondary">Home</button>
                         </li>
                         <li>
-                            <button onClick={() => scroll(0)} className="ml-7 text-lg hover:text-secondary">Service</button>
+                            <button onClick={() => scroll(700)} className="ml-7 text-lg hover:text-secondary">Service</button>
                         </li>
                         <li>
-                            <button onClick={() => scroll(1000)} className="ml-7 text-lg hover:text-secondary">Project</button>
+                        <button onClick={() => scroll(2600)} className="ml-7 text-lg hover:text-secondary">About</button>
+                    </li>
+                        <li>
+                            <button onClick={() => scroll(3500)} className="ml-7 text-lg hover:text-secondary">Project</button>
                         </li>
                         <li>
-                            <button onClick={() => scroll(1300)} className="ml-7 text-lg hover:text-secondary">Skill</button>
+                            <button onClick={() => scroll(6800)} className="ml-7 text-lg hover:text-secondary">Skill</button>
                         </li>
                         <li>
-                            <button onClick={() => scroll(1500)} className="ml-7 text-lg hover:text-secondary">Contact</button>
+                            <button onClick={() => scroll(7600)} className="ml-7 text-lg hover:text-secondary">Contact</button>
                         </li>
                     </ul>
                 </div>
-                <Link to="/" className="btn btn-ghost normal-case font-lg font-mono text-secondary text-4xl"><img className='bg-yellow-200 w-14' src={logo}></img></Link>
+                <Link to="/" className="btn btn-ghost normal-case font-lg font-mono text-secondary text-4xl"><img className='bg-yellow-200 w-14 rounded-lg' src={logo}></img></Link>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -49,7 +52,7 @@ const Navbar = () => {
                         <button onClick={() => scroll(500)} className="text-lg hover:text-secondary">Service</button>
                     </li>
                     <li>
-                        <button onClick={() => scroll(3100)} className="text-lg hover:text-secondary">Skill</button>
+                        <button onClick={() => scroll(4000)} className="text-lg hover:text-secondary">Skill</button>
                     </li>
                     <li>
                         <button onClick={() => scroll(1200)} className=" text-lg hover:text-secondary">About</button>
@@ -59,7 +62,7 @@ const Navbar = () => {
                         <Link className=" text-lg hover:text-secondary" to="/blog"> <button>Blog</button></Link>
                     </li>
                     <li>
-                        <button onClick={() => scroll(3800)} className=" text-lg hover:text-secondary">Contact</button>
+                        <button onClick={() => scroll(4800)} className=" text-lg hover:text-secondary">Contact</button>
                     </li>
 
                 </ul>
